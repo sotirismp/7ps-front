@@ -1,0 +1,21 @@
+.on-scrollbar {
+  scrollbar-width: thin; /* Firefox */
+  -ms-overflow-style: none;
+}
+
+.on-scrollbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: none !important;
+  background-color: transparent !important;
+  border-radius: 1rem;
+}
+
+.on-scrollbar::-webkit-scrollbar {
+  width: 6px !important;
+  background-color: transparent;
+  border-radius: 1rem;
+}
+
+.on-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #acacac;
+  border-radius: 1rem;
+}
